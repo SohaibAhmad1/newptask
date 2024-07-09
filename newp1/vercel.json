@@ -7,7 +7,7 @@
             "config":{"runtime":"python3.6"}
         }
     ],
-    "routers":[
+    "routes":[
         {
             "src":"/(.*)",
             "dest":"/"
