@@ -2,15 +2,15 @@
     "version":2,
     "builds":[
         {
-            "src":"./index.py",
+            "src":"wsgi.py",
             "use":"@vercel/python",
-            "config":{"runtime":"python3.6"}
+            "config":{"runtime":"python3.8"}
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"/"
+            "dest":"/wsgi.py"
         }
     ]
 }
