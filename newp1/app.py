@@ -14,7 +14,7 @@ Descriptions = {
     'Non MRI': 'Please add the brain MRI images if possible.'
 }
 
-# Load the trained model with custom objects
+# Load the trained model with custom objects ok
 # model_path = "C:/Users/Saqib 1/newp1/model/model.keras"
 model_path = "newp1/model.keras"
 model = tf.keras.models.load_model(model_path, custom_objects={'KerasLayer': hub.KerasLayer})
